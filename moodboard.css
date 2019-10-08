@@ -1,0 +1,26 @@
+body{
+	background-image: url('pablo.jpg');
+	background-size: 1920px 1000px;
+	background-repeat: no-repeat;
+}
+#title{
+	color: #ed6454;
+	font-size: 40px;
+	text-align: center;
+	font-family: sans-serif;
+}
+#hex{
+	text-align: center;
+	font-size: 15px;
+	color: #feb582;
+	font-family: sans-serif;
+}
+#font{
+	font-size: 25px;
+	color: #402320;
+	font-family: sans-serif;
+	text-align: center;
+}
+#shoe{
+	padding-left: 700px;
+}
