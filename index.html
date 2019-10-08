@@ -1,12 +1,192 @@
-<!DOCTYPE html>
-<html>
-<body>
+<html><head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  <style type="text/css"></style></head>
 
-<h1>My First Heading</h1>
+  <body>
+    <div id="nav">
+    <div id="nav_wrapper">
+        <ul>
+            <li><a href="#">Home</a>
+            </li>
+            <li> <a href="http://www.simerjitdphotography.com/#/automotive/" target="_blank">Gallery</a>
+            </li>
+            <li> <a href="#">Car list 1</a>
 
-<p>My first paragraph.</p>
+                <ul>
+                    <li><a href="#Huracan">Lamborgini Huracan</a>
+                    </li>
+                    <li><a href="#P1">McLaren P1</a>
+                    </li>
+                    <li><a href="#Huayra">Pagani Huayra</a>
+                    </li>
+<!--
+                    <li><a href="#">Agera R</a>
+                    </li>
+                    <li><a href="#">Porsche 918</a>
+                    </li>
+-->
+                </ul>
+            </li>
+            <li> <a href="#">Car list 2</a>
+                <ul>
+                    <li><a href="#GTR">Nissan GTR</a>
+                    </li>
+                    <li><a href="#Astin">Aston Martin Vanquish</a>
+                    </li>
+                    <li><a href="#">Lamborghini Venemo</a>
+                    </li>
+<!--
+                    <li><a href="#">Lamborghini Venemo </a>
+                    </li>
+                    <li><a href="#">La Ferrrari</a>
+                    </li>
+-->
+                </ul>
+            </li>
+            <li> <a href="#">About</a>
+			<ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100002097726062&amp;fref=ts" target="_blank">Amritpal Dhaliwal </a> 
+                    </li>
+                    <li><a href="https://www.facebook.com/adixsharma?fref=ts&amp;ref=br_tf" target="_blank">Aditya Sharma </a>
+                    </li>
+                    <li><a href="https://www.facebook.com/akhilsbhamidipati?fref=ts" target="_blank">Akhil Bhamidipati </a>
+                    </li>
+					 <li><a href="">Joseph Marquez </a>
+                    </li>
+					<li><a href="">Ajay Boparai </a>
+                    </li>
+			</ul>
 
-</body>
-</html>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Nav wrapper end -->
+</div>  
+<!-- Nav end -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 id="title1">Cars</h1>
+        <h2 id="title2">Drive into the future.</h2>
+        <div id="Info"><a href="#learn_more">Learn More</a></div>
+      </div>
+    </div> 
+    <div class="more-pics">
+    <div class="container">
+    <a name="learn_more"><h2> More Pictures </h2></a>
+    <p> To check out some more of these awesome pictures go to <a href="http://www.simerjitdphotography.com/" target="_blank" name="Pictures">SD Photography</a>. </p>
+    <div class="row">
+    <div class="col-md-4">
+    <div class="thumbnail">
+    <a name="P1" href="http://cars.mclaren.com/P1" target="_blank"><img src="http://static1.squarespace.com/static/541fad74e4b0381477a27a9b/541faf2fe4b0bb0e99198313/55510c98e4b012049c5a5e03/1431375015320/DSC_7254-Edit.jpg?format=1000w"></a>
+    <p>
+        </p><div id="car_name"><b>McLaren P1</b></div>
+        Price: $1,150,000 <br>
+        Horsepower: 903 <br>
+        Torque: 627 lb-ft <br>
+        Speed: 0-60 mph in 2.7s <br>
+        Engine: Electric and V8 Twin Turbo Hybrid <br>
+        MPG: 16/21 MPG  
+    <p></p>  
+     </div>
+      <div class="thumbnail">
+      <a name="Huracan"><img id="Huracan" src="http://static1.squarespace.com/static/541fad74e4b0381477a27a9b/541faf2fe4b0bb0e99198313/554c0deee4b05b941e14a022/1431047702727/16674425323_8e7db50a54_o.jpg?format=1000w"></a>
+      <p>
+          </p><div id="car_name"><b>Lamborghini Huracan</b></div>
+          Price:  $240,745 <br>
+          Horsepower: 602 <br>
+          Torque: 412 lb-ft <br>
+          Speed: 0-60 mph in 2.5s <br>
+          Engine: V10 <br>
+          MPG: 20 MPG <br>
+      <p></p>
+      </div>
+      </div>
+      <div class="col-md-4">
+    <div class="thumbnail">
+      <a name="Huayra"><img src="http://www.autoswind.com/wp-content/uploads/2015/07/Pagani-Huayra-10.jpg"></a>
+         <p>
+          </p><div id="car_name"><b>Pagani Huayra</b></div>
+          Price: $1,070,500 <br>
+          Horsepower : 720 <br>
+          Torque: 738 lb-ft <br>
+          Speed: 0-60 in 3.0 <br>
+          Engine: V12 <br>
+          MPG: 10/14 MPG
+      <p></p>
+    </div>
+    <div class="thumbnail">
+      <a name="GTR" href="http://www.nissanusa.com/sportscars/gt-r" target="_blank"><img src="http://images5.alphacoders.com/510/510795.jpg"></a>
+      <p>
+        </p><div id="car_name"><b>Nissan GTR</b></div>
+        Price: $101,770 <br>
+        Horsepower: 600 <br>
+        Torque: 481 lb-ft <br>
+        Speed: 0-60 mph in 2.9 <br>
+        Engine: V6 Twin Turbo <br>
+        MPG: 16/22 MPG
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a name="Astin" href="http://www.astonmartin.com/en-us/cars/the-new-vanquish" target="_blank"><img src="http://krispyteam.net/upload/phpzhH1mm.jpg"></a>
+      <p>
+          </p><div id="car_name"><b>Aston Martin Vanquish</b></div>
+          Price: $279,995 <br>
+          Horsepower: 565 <br>
+          Speed: 0-60 mph in 3.6s<br>
+          Engine: 6.0L V12 <br>
+          MPG: 13/19 MPG
+      <p></p>  
+    </div>
+  </div>
+<div class="col-md-4">
+  <div class="thumbnail">
+   <a name="P1" href="http://www.lamborghini.com/en/models/veneno-roadster/overview/" target="_blank"><img src="http://jay.mobile9.com/download/media/569/2014-lambo_cfGAAPMB.jpg"></a>
+     <p>
+        </p><div id="car_name"><b>Lamborghini Veneno</b></div>
+        Price: $ 4,500,000 <br>
+        Horsepower: 750 <br>
+        Torque: 690 lb-ft <br>
+        Speed: 0-60 mph in 2.9s <br>
+        Engine: V12 <br>
+        MPG: 11/17 MPG  
+     <p></p>  
+	</div> 
+</div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	     <div id="inline"> 
+		  <div class="col-md-4">
+			<h3>Car Shows!</h3>
+			<p>From Ferraris to you're dream cars, come join us a witness very unique cars.</p>
+			<p><a href="#">See Schedule for local car shows</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Host</h3>
+			<p>Contact us for Hosting.</p>
+			<p><a href="#">Learn more about hosting</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Trust and Safety</h3>
+			<p>No alchohol or drugs are allowed at our events.</p>
+			<p><a href="#">Contact us to learn more about trust and safety</a></p>
+		  </div>
+	    </div>
+	   </div>		
+	  </div>
+	</div>
+  
+
+
+</div></div></div></body></html>
 
 
