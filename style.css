@@ -1,1 +1,10 @@
+body {
 
+background-image: url("off.png")
+}
+h1 {
+  color: rgb(255,250,230);
+  font-family: Helvetica;
+  font-size: 300%;
+ align-content: center;
+}
