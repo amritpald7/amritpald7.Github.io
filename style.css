@@ -1,10 +1,61 @@
 body {
 
-background-image: url("off.png")
+background-image: url("off.jpg")
 }
 h1 {
   color: rgb(255,250,230);
   font-family: Helvetica;
   font-size: 300%;
  align-content: center;
+}
+a {
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  margin-top:10px;
+  margin-bottom: 0px;
+  margin-right: 500px;
+  margin-left: 500px;
+  display: flex;
+ height: 50px;
+ width: 100px;
+}
+#Kanye {
+background-color: #f44336;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  margin-top:10px;
+  margin-bottom: 0px;
+  margin-right: 700px;
+  margin-left: 700px;
+  display: flex;
+ height: 50px;
+ width: 100px;
+}
+#Kanye {
+background-color: red;
+}
+#Shoes {
+	background-color: #f44336;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  margin-top:10px;
+  margin-bottom: 0px;
+  margin-right: 600px;
+  margin-left: 600px;
+  display: flex;
+ height: 50px;
+ width: 100px;
+}
+#Shoes {
+	background-color: red;
+}
+a  {
+  background-color: red;
 }
